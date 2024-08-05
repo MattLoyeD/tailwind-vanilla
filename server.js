@@ -8,17 +8,20 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // Endpoint POST /convert
-app.post("/convert", (req, res) => {
-  const htmlContent = req.body.html;
-  const withPrefix = req.body.withPrefix || false;
+app.post("/convert", async (req, res) => {
+  const { html: htmlContent, withPrefix = false } = req.body;
 
   if (!htmlContent) {
     return res.status(400).json({ error: "No HTML content provided" });
   }
 
-  const result =  tailwindVanilla(htmlContent, withPrefix);
-
-  res.json(result);
+  try {
+    const result = await tailwindVanilla(htmlContent, withPrefix);
+    res.json(result);
+  } catch (error) {
+    console.error("Error processing HTML content:", error);
+    res.status(500).json({ error: "Internal server error" });
+  }
 });
 
 // Start server

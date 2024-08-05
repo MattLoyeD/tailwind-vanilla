@@ -1,5 +1,7 @@
 module.exports = {
-  content: ['./tpl/**/*.html'],
+  content: [
+    './output/temp.html',
+  ],
   theme: {
     extend: {},
   },

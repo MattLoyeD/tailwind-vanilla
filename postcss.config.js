@@ -5,7 +5,7 @@ module.exports = {
     require('tailwindcss'),
     require('autoprefixer'),
     purgecss({
-      content: ['./tpl/**/*.html'],
+      content: ['./input/**/*.html'],
       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
     }),
   ],
