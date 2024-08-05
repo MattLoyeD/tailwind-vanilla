@@ -91,13 +91,13 @@ npm start
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/MattLoyeD/tailwindVanilla.git
+git clone https://github.com/MattLoyeD/tailwind-vanilla.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd tailwindVanilla
+cd tailwind-vanilla
 ```
 
 3. Install the dependencies:

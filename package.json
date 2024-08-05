@@ -1,8 +1,8 @@
 {
-  "name": "twtovanilla",
+  "name": "tailwind-vanilla",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Convert any tailwind html to standalone (native/portable) CSS",
+  "main": "server.js",
   "scripts": {
     "start" : "node server.js",
     "convert" : "postcss src/styles.css -o dist/styles.css && node convert.js",
