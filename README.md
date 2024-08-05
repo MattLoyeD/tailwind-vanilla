@@ -41,25 +41,10 @@ Result will be:
 
 ```json
 {
-    "html": "
-    <div class=\"example-class\">
-        <div class=\"bg-blue-500 text-white p-4\">Hello World</div>
-    </div>
-    ",
-    "css": "
-        .example-class .bg-blue-500 {
-            --tw-bg-opacity: 1;
-            background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-        }
-        .example-class .p-4 {
-            padding: 1rem;
-        }
-        .example-class .text-white {
-            --tw-text-opacity: 1;
-            color: rgb(255 255 255 / var(--tw-text-opacity));
-        }
-    "
+  "html": "<div class=\"example-class\">\n  <div class=\"bg-blue-500 text-white p-4\">Hello World</div>\n</div>",
+  "css": ".example-class .bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n.example-class .p-4 {\n  padding: 1rem;\n}\n.example-class .text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n"
 }
+
 ```
 
 ### Using CLI
@@ -91,24 +76,8 @@ npm start
 
 ```json
 {
-    "html": "
-    <div class=\"example-class\">
-        <div class=\"bg-blue-500 text-white p-4\">Hello World</div>
-    </div>
-    ",
-    "css": "
-        .example-class .bg-blue-500 {
-            --tw-bg-opacity: 1;
-            background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-        }
-        .example-class .p-4 {
-            padding: 1rem;
-        }
-        .example-class .text-white {
-            --tw-text-opacity: 1;
-            color: rgb(255 255 255 / var(--tw-text-opacity));
-        }
-    "
+  "html": "<div class=\"example-class\">\n  <div class=\"bg-blue-500 text-white p-4\">Hello World</div>\n</div>",
+  "css": ".example-class .bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n.example-class .p-4 {\n  padding: 1rem;\n}\n.example-class .text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n"
 }
 ```
 
