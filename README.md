@@ -1,7 +1,6 @@
 <h1 align=center>Tailwind Vanilla</h1>
 
-
-This project convert any html string with tailwind css classes into standalone html/css.
+Convert any html string with tailwind css classes into standalone html/css.
 
 ## Usage
 
@@ -105,3 +104,8 @@ cd tailwind-vanilla
 ```bash
 npm install
 ```
+
+## Motivations
+
+I needed it for a custom project in order to propose nice blocks but couldn't load tailwind entirely.
+I also like the fact that vanilla CSS is an open standard usable everywhere, libraries are nice but with dependancies, it's quite sad to me that you have to have to use thousands of processes and horsepower to get simple stuff.
