@@ -4,10 +4,14 @@
   "description": "Convert any tailwind html to standalone (native/portable) CSS",
   "main": "server.js",
   "scripts": {
-    "start" : "node server.js",
-    "convert" : "postcss src/styles.css -o dist/styles.css && node convert.js",
+    "start": "node server.js",
+    "convert": "postcss src/styles.css -o dist/styles.css && node convert.js",
     "test": "jest",
     "build:css": "postcss src/styles.css -o dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattloyed/tailwind-vanilla.git"
   },
   "keywords": [],
   "author": "",
